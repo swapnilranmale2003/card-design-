@@ -1,0 +1,62 @@
+.card {
+  height: 40vh;
+  background-color: rgb(10, 1, 14);
+  max-width: 350px;
+  margin: 0 auto; /* Center the card */
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 18%;
+  left: 46%;
+}
+
+.developer-name {
+  margin-top: 20px;
+}
+
+.title {
+  gap: 1rem;
+}
+
+.title h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.title h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: gray;
+  margin-bottom: 1em;
+}
+
+.title p {
+  width: 100%;
+  color: gray;
+  margin-bottom: 2em;
+}
+
+.btn button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgba(143, 136, 136, 0.883);
+  width: 100%;
+  max-width: 200px;
+  height: 4rem;
+  border-radius: 29px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
